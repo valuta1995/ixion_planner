@@ -50,6 +50,7 @@ declare module 'types/Ixion' {
     id: string;
     degree: number;
     isWall: boolean;
+    resource?: string;
   }
   interface IPreBuilding extends IPoint {
     id: string;
@@ -90,6 +91,7 @@ declare module 'types/Ixion' {
   interface IFindBuilding extends IPoint, IDimension {
     bx: number;
     by: number;
+    degree?: number;
   }
   interface IMinMaxAngle {
     [key: number]: ({ width, height }: IDimension) => {
