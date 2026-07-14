@@ -34,6 +34,14 @@
 
 ## **Patch Note**
 
+### v0.80 - 2026-07-14
+
+- Fix rotated building selection/pickup
+- Add tool to flip and rotate entire sectors
+- Add shift-click option to delete buttons to delete all roads or building
+- Add storage item indicator
+
+
 ### v0.71 - 2023-02-28
 
 - Building Color Restore
